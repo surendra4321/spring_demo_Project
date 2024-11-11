@@ -47,6 +47,7 @@ public class ProductController {
 		String price = req.getParameter("price");
 		String category = req.getParameter("category");
 		String photo = req.getParameter("photo");
+		System.out.println(name);
 
 		ProductEntity entity = new ProductEntity();
 		entity.setCategory(category);
